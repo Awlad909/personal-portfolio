@@ -70,6 +70,7 @@
 .contact-right-email p{
     color: white;
     font-weight: bold;
+    font-size: 15px;
 }
 .contact-right-phone{
     display: flex;
@@ -153,6 +154,9 @@
     }
     .contact-left-info textarea{
         width: 300px;
+    }
+    .contact-right-email p{
+        font-size: 8px;
     }
     
 }
