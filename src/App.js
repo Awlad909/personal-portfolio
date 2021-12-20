@@ -17,27 +17,13 @@ function App() {
       <Header></Header>
         <Routes>
           <Route exact path="/" element={<Home/>} />
-        </Routes>
-        <Routes>
           <Route path="/home" element={<Home/>} />
-        </Routes>
-        <Routes>
           <Route path="/about" element={<About/>} />
-        </Routes>
-        <Routes>
           <Route path="/skill" element={<Skill/>} />
-        </Routes>
-        <Routes>
           <Route path="/project" element={<Projects/>} />
-        </Routes>
-        <Routes>
           <Route path="/blog" element={<Blog/>} />
-        </Routes>
-        <Routes>
           <Route path="/contact" element={<Contact/>} />
-        </Routes>
-        <Routes>
-          <Route path="*" element={<NotFound/>} />
+          <Route path="*" element={<NotFound/>}/>
         </Routes>
         <Footer></Footer>
       </Router>

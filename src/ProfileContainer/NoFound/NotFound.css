@@ -1,0 +1,32 @@
+.button{
+    width: 200px;
+    background-color: crimson;
+    color: white;
+    border: 1px solid;
+    border-radius: 100px;
+    padding: 7px;
+    font-size: 20px;
+    margin-left: 300px;
+}
+.pageNotFound img{
+    margin-left: 300px;
+}
+
+@media only screen and (max-width:688px) {
+    .pageNotFound img{
+        width: 300px;
+        margin-left: 60px;
+    }
+    .button{
+        margin-left: 60px;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .pageNotFound img{
+        width: 300px;
+        margin-left: 60px;
+    }
+    .button{
+        margin-left: 60px;
+    }
+}
