@@ -1,0 +1,23 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.nav-container h1{
+    font-size: 40px;
+    padding-left: 100px;
+    color: white;
+}
+.nav-details ul li a{
+    font-size: 20px;
+    color: white;
+}
+.nav-details ul li a:hover{
+    color: orangered;
+}
+.nav-item a{
+     color: orangered;
+}
+.navigation{
+    background-color: black;
+}

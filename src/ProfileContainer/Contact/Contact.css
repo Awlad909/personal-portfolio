@@ -1,0 +1,178 @@
+.contact-container{
+    background-image: url(../../images/contact-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-info h1{
+    text-align: center;
+    color: crimson;
+    font-weight: bold;
+    font-size: 50px;
+}
+.contact-info p{
+    text-align: center;
+    font-size: 25px;
+    color:gold;
+    font-weight: bold;
+}
+.contact-right{
+    width: 450px;
+    /* border: 1px solid; */
+}
+.contact-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-left: 50px;
+}
+
+/*-------------- contact-right-info ------------- */
+
+.contact-right-address{
+    display: flex;
+    grid-row-gap: 30px;
+    grid-column-gap: 90px;
+    padding-left: 50px;
+}
+.contact-right-address i{
+    background-color: rgb(87, 201, 201);
+    color: black;
+    padding: 18px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.contact-right-address h3{
+    color: gold;
+    font-size: 30px;
+}
+.contact-right-address p{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.contact-right-email{
+    display: flex;
+    grid-row-gap: 30px;
+    grid-column-gap: 90px;
+    padding-left: 50px;
+}
+.contact-right-email i{
+    background-color: rgb(87, 201, 201);
+    color: black;
+    padding: 18px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.contact-right-email h3{
+    color: gold;
+    font-size: 30px;
+}
+.contact-right-email p{
+    color: white;
+    font-weight: bold;
+}
+.contact-right-phone{
+    display: flex;
+    grid-row-gap: 30px;
+    grid-column-gap: 90px;
+    padding-left: 50px;
+}
+.contact-right-phone i{
+    background-color: rgb(87, 201, 201);
+    color: black;
+    padding: 18px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.contact-right-phone h3{
+    color: gold;
+    font-size: 30px;
+}
+.contact-right-phone p{
+    color: white;
+    font-weight: bold;
+}
+
+/*--------------- contact-left-info ----------------- */
+
+.contact-left{
+    width: 500px;
+    background-color: rgb(59, 56, 56);
+    border-radius: 10px;
+}
+
+.contact-left-info h2{
+    text-align: center;
+    color: gold;
+}
+.contact-left-info input{
+    width: 400px;
+    background-color: rgb(59, 56, 56);
+    margin-left: 25px;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-left: 20px;
+}
+.contact-left-info textarea{
+    width: 400px;
+    background-color: rgb(59, 56, 56);
+    border: none;
+    border-bottom: 1px solid white;
+    margin-left: 25px;
+    padding-left: 20px;
+}
+.contact-btn button{
+    background-color: rgb(34, 34, 48);
+    border: 2px solid;
+    margin-left: 20px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 60px;
+    font-size: 18px;
+    color: white;
+}
+.contact-btn button:hover{
+    background-color: rgb(87, 201, 201);
+    border: 2px solid rgb(87, 201, 201);
+}
+
+/* ------------ media query ----------- */
+
+@media only screen and (max-width:688px) {
+    .contact-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contact-right{
+        width: 330px;
+    }
+    .contact-left{
+        width: 330px;
+    }
+    .contact-left-info input{
+        width: 300px;
+    }
+    .contact-left-info textarea{
+        width: 300px;
+    }
+    
+}
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .contact-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contact-right{
+        width: 330px;
+    }
+    .contact-left{
+        width: 330px;
+    }
+    .contact-left{
+        width: 330px;
+    }
+    .contact-left-info input{
+        width: 300px;
+    }
+    .contact-left-info textarea{
+        width: 300px;
+    }
+}
