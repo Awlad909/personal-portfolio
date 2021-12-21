@@ -80,6 +80,7 @@
 @media only screen and (max-width:688px) {
     .about-info{
         grid-template-columns: repeat(1, 1fr);
+        width: 300px;
     }
     .about-img{
         width: 300px;
@@ -93,6 +94,7 @@
 @media only screen and (min-width: 689px) and (max-width:991px) {
     .about-info{
         grid-template-columns: repeat(2,1fr);
+        width: 300px;
     }
     .about-img{
         width: 300px;
