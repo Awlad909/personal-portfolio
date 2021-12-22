@@ -38,6 +38,7 @@
    top: 80px;
    width: 400px;
    margin-left: 70px;
+   border: 5px solid;
 }
 .about-img{
     background-color: lightgray;
@@ -46,6 +47,7 @@
 }
 .about-desc{
     width: 700px;
+    border: 2px solid;
 }
 .about-desc p{
     text-align: justify;
