@@ -86,14 +86,14 @@
     }
     .about-img{
         width: 300px;
-        margin-left: 100px;
+        margin-left: 50px;
     }
     .about-img img{
         padding-right: 100px;
     }
     .about-desc{
         width: 280px;
-        margin-left: 100px;
+        margin-left: 50px;
     }
 }
 @media only screen and (min-width: 689px) and (max-width:991px) {
