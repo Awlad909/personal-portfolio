@@ -47,6 +47,7 @@
 }
 .about-desc{
     width: 700px;
+    margin-left: 100px;
 }
 .about-desc p{
     text-align: justify;
@@ -82,24 +83,22 @@
 @media only screen and (max-width:688px) {
     .about-info{
         grid-template-columns: repeat(1, 1fr);
-        width: 300px;
     }
     .about-img{
         width: 300px;
-        margin-left: 50px;
+        margin: auto;
     }
     .about-img img{
         padding-right: 100px;
     }
     .about-desc{
         width: 280px;
-        margin-left: 50px;
+        margin: auto;
     }
 }
 @media only screen and (min-width: 689px) and (max-width:991px) {
     .about-info{
         grid-template-columns: repeat(2,1fr);
-        width: 280px;
     }
     .about-img{
         width: 300px;
