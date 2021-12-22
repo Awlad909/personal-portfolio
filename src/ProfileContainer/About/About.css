@@ -85,7 +85,6 @@
     .about-img{
         width: 320px;
         margin-left: 0px;
-        margin: auto;
     }
     .about-img img{
         padding-right: 110px;
@@ -93,7 +92,6 @@
     .about-desc{
         width: 320px;
         margin-left: 0px;
-        margin: auto;
     }
 }
 @media only screen and (min-width: 689px) and (max-width:991px) {
@@ -102,10 +100,8 @@
     }
     .about-img{
         width: 300px;
-        margin: auto;
     }
     .about-desc{
         width: 280px;
-        margin: auto;
     }
 }
