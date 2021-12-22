@@ -41,13 +41,11 @@
     background-color: lightgray;
     padding-right: 100px;
     border-radius: 10px;
-    border: 1px solid;
     margin-left: 70px;
 }
 .about-desc{
     width: 700px;
     margin-left: 70px;
-    border: 1px solid;
 }
 .about-desc p{
     text-align: justify;
@@ -85,15 +83,17 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .about-img{
-        width: 280px;
-        margin-left: 25px;
+        width: 320px;
+        margin-left: 0px;
+        margin: auto;
     }
     .about-img img{
         padding-right: 110px;
     }
     .about-desc{
-        width: 280px;
-        margin-left: 25px;
+        width: 320px;
+        margin-left: 0px;
+        margin: auto;
     }
 }
 @media only screen and (min-width: 689px) and (max-width:991px) {
@@ -102,8 +102,10 @@
     }
     .about-img{
         width: 300px;
+        margin: auto;
     }
     .about-desc{
         width: 280px;
+        margin: auto;
     }
 }
