@@ -36,12 +36,13 @@
    grid-gap: 50px;
    position: relative;
    top: 80px;
-   width: 350px;
+   width: 400px;
+   margin-left: 70px;
 }
 .about-img{
     background-color: lightgray;
-    margin-left: 100px;
     border-radius: 10px;
+    
 }
 .about-desc{
     width: 700px;
@@ -80,12 +81,14 @@
 @media only screen and (max-width:688px) {
     .about-info{
         grid-template-columns: repeat(1, 1fr);
-        width: 265px;
-        border: 1px solid;
+        width: 290px;
     }
     .about-img{
-        width: 300px;
+        width: 265px;
         margin: auto;
+    }
+    .about-img img{
+        padding-right: 100px;
     }
     .about-desc{
         width: 280px;
@@ -96,13 +99,11 @@
     .about-info{
         grid-template-columns: repeat(2,1fr);
         width: 265px;
-        border: 1px solid;
     }
     .about-img{
         width: 300px;
     }
     .about-desc{
         width: 280px;
-        margin: auto;
     }
 }
