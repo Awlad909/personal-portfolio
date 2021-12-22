@@ -38,6 +38,7 @@
 }
 .skill-left{
     width: 550px;
+    border: 1px solid;
     margin-left: 70px;
 }
 .skill-left h2{
@@ -67,6 +68,7 @@
 }
 .skill-right{
     width: 600px;
+    border: 1px solid;
 }
 
 /*-------- work skill percentage ------*/

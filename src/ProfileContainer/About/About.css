@@ -34,8 +34,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
-    margin-left: 80px;
-    margin-right: 80px;
 }
 
 .about-img{
@@ -43,9 +41,13 @@
     background-color: lightgray;
     padding-right: 100px;
     border-radius: 10px;
+    border: 1px solid;
+    margin-left: 70px;
 }
 .about-desc{
     width: 700px;
+    margin-left: 70px;
+    border: 1px solid;
 }
 .about-desc p{
     text-align: justify;
@@ -81,18 +83,15 @@
 @media only screen and (max-width:688px) {
     .about-info{
         grid-template-columns: repeat(1, 1fr);
-        margin: auto;
     }
     .about-img{
         width: 280px;
-        margin: auto;
     }
     .about-img img{
         padding-right: 110px;
     }
     .about-desc{
         width: 280px;
-        margin: auto;
     }
 }
 @media only screen and (min-width: 689px) and (max-width:991px) {
@@ -101,8 +100,10 @@
     }
     .about-img{
         width: 300px;
+        margin: auto;
     }
     .about-desc{
         width: 280px;
+        margin: auto;
     }
 }
