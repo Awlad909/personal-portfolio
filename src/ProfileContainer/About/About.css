@@ -83,15 +83,17 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .about-img{
-        width: 320px;
+        width: 285px;
         margin-left: 0px;
+        margin: 0px 40px;
     }
     .about-img img{
         padding-right: 110px;
     }
     .about-desc{
-        width: 320px;
+        width: 285px;
         margin-left: 0px;
+        margin: 0px 40px;
     }
 }
 @media only screen and (min-width: 689px) and (max-width:991px) {
